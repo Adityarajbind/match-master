@@ -1,0 +1,7 @@
+Color Scheme
+primary color:
+1.#FA751C
+2.#498fc3
+3.#ffc01c
+4.#3F3434
+5.#129393 
