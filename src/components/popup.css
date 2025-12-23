@@ -1,0 +1,77 @@
+.popup-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    box-shadow: 1px 1px 5px black;
+    transition: opacity 0.5s ease; /* Transition for fade-in */
+    pointer-events: none;
+    
+}
+.popup-container.show {
+    opacity: 1;
+    pointer-events: all; /* Allow interaction when visible */
+}
+.popup-box {
+    background-color: var(--backColor);
+    width: 30%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+}
+.popup-box .winner-icon{
+    width: 65%;
+    height: 50%;
+}
+
+.popup-box .winner-icon img {
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.popup-box .winner-title {
+    border-radius: 0.5rem;
+    width: 67%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(178, 177, 177, 0.415);
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.popup-box .btn-container{
+    width: 67%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popup-box .btn-container .nav-button{
+    height: 80%;
+    width: 40%;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgba(178, 177, 177, 0.415);
+
+}
+.popup-box .btn-container .nav-button:hover{
+    background-color: rgba(178, 177, 177, 0.899);
+}

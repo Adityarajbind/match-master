@@ -1,0 +1,14 @@
+:root {
+  --primary1: #FA751C;
+  --primary2: #498fc3;
+  --Yellow: #ffc01c;
+  --backColor: #3F3434;
+  --cardBack: #129393;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,142 @@
+body {
+  background-color: var(--backColor);
+  width: 100%;
+  height: 100vh;
+}
+.background-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.blue-box,
+.orange-box {
+  width: 48%;
+  height: 96%;
+  border-radius: 16px;
+}
+
+.orange-box {
+  background-color: var(--primary1);
+}
+
+.blue-box {
+  background-color: var(--primary2);
+}
+
+.logo {
+  width: 100%;
+  height: 26.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* padding:2% 0; */
+}
+
+.logo img {
+  width: 70%;
+}
+
+main {
+  width: 100%;
+  height: 73vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5%;
+  gap: 5%;
+}
+
+.charctericon {
+  width: 15.5%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.char-logo {
+  width: 100%;
+  height: 80%;
+  border-radius: 1rem;
+
+}
+.char-logo img{
+  border-radius: 1rem;
+}
+.charctericon .name{
+  width: 100%;
+  height: 15%;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: var(--backColor);
+ font-size: 1.25rem;
+ font-weight: 600;
+}
+.fomr-container{
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  gap: 10%;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.inputs input{
+  height: 3.5rem;
+  width: 90%;
+  background-color: var(--backColor);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-indent: 20px;
+  box-shadow: 2px 2px 2px #251e1e;
+}
+.inputs input:hover{
+  background-color: #231d1d;
+}
+.inputs input::placeholder{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.fomr-container button{
+  height: 25%;
+  width: 45%;
+  background-color: var(--backColor);
+  border: none;
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px #251e1e;
+  cursor: pointer;
+}
+.fomr-container button:hover{
+  background-color: #231d1d;
+}

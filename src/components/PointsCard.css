@@ -1,0 +1,32 @@
+.card-container{
+   
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 0.25rem;
+    background-color: var(--backColor);
+}
+.card-container img{
+    width: 35%;
+    height: fit-content;
+    border-radius: 0.35rem;
+}
+.card-container .player-info{
+    /* border: 1px solid rosybrown; */
+    width: 60%;
+    height: 80%;
+    color: white;
+}
+.card-container .player-info .player-name{
+    font-weight: 600;
+    font-size: 65%;
+    
+}
+.card-container .player-info .points{
+    font-weight: 600;
+    font-size: 100%;
+    /* border: 1px solid red; */
+}
