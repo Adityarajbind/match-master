@@ -1,23 +1,18 @@
-
-import { createRoot } from 'react-dom/client'
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import App from './pages/App.jsx'
-import GAMEscreen from './pages/GAMEscreen.jsx';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import App from "./pages/App.jsx";
+import GAMEscreen from "./pages/GAMEscreen.jsx";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
   },
   {
     path: "/gamescreen",
-    element: <GAMEscreen/>,
+    element: <GAMEscreen />,
   },
 ]);
 
