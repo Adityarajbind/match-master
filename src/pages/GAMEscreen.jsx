@@ -12,16 +12,16 @@ const GAMEscreen = () => {
     // Array of card images
  
     const card_images = [
-        "src\\assets\\cards\\Among-Us-Red.png",
-        "src\\assets\\cards\\diamond-axe.png",
-        "src\\assets\\cards\\diamond-pickaxe.png",
-        "src\\assets\\cards\\Diamond.png",
-        'src\\assets\\cards\\emerald.png',
-        'src\\assets\\cards\\enchanted_apple.png',
-        'src\\assets\\cards\\Gold_Ingot.png',
-        'src\\assets\\cards\\steve.jpg',
-        'src\\assets\\cards\\sword.png',
-        "src\\assets\\cards\\Creeper.jpg"
+        "cards/Among-Us-Red.png",
+        "cards/diamond-axe.png",
+        "cards/diamond-pickaxe.png",
+        "cards/Diamond.png",
+        'cards/emerald.png',
+        'cards/enchanted_apple.png',
+        'cards/Gold_Ingot.png',
+        'cards/steve.jpg',
+        'cards/sword.png',
+        "cards/Creeper.jpg"
     ];
 
     // Duplicate and shuffle the card images
