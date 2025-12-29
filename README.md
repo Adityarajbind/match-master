@@ -1,12 +1,12 @@
-# Huly.io UI Clone
+# Match Master
 
 A fun and interactive card-matching game where players flip cards to find matching pairs, earn points, and compete to score the highest total.
 
 ## Live Demo
-🔗 [Demo Link](https://huly-clone-omega.vercel.app/)
+🔗 [Demo Link](https://adityarajbind.github.io/match-master/)
 
 ## Screenshots
-![Homepage](public/assest-huly/homepage.png)
+![Homepage](public/matchmaster.png)
 
 ## Tech Stack
 - React
