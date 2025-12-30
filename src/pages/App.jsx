@@ -51,7 +51,7 @@ function App() {
         <div class="blue-box"></div>
       </div>
       <div class="logo">
-        <img src="/icons hero/cooltext465572252435048.png" alt="" />
+        <img src="icons hero/HeadLogo.png" alt="" />
       </div>
       <main >
         <div class="charctericon">
